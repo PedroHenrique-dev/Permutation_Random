@@ -3,7 +3,9 @@
 
 #include "permutation_random.cpp"
 
-using namespace std;
+using std::cout;
+using std::endl;
+using std::vector;
 
 int main(int argc, char const *argv[])
 {
