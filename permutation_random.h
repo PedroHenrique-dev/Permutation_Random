@@ -1,7 +1,7 @@
 #ifndef PERMUT_RANDOM
 #define PERMUT_RANDOM
 
-template <class LISTA>
-LISTA permut(LISTA x);
+template <class LIST>
+LIST permut(LIST x);
 
 #endif

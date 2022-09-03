@@ -7,8 +7,8 @@
 
 using namespace std;
 
-template <class LISTA>
-LISTA permut(LISTA x){
+template <class LIST>
+LIST permut(LIST x){
     int n = x.size();
 
     random_device rd;
