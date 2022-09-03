@@ -8,7 +8,8 @@
 using namespace std;
 
 template <class LIST>
-LIST permut(LIST x){
+LIST permut(LIST x)
+{
     int n = x.size();
 
     random_device rd;
@@ -22,7 +23,7 @@ LIST permut(LIST x){
     {
         int r = int(u*k)+1;
         swap(x[k], x[r]);
-        k -= 1;
+        --k;
     }
 
     return x;
