@@ -22,7 +22,7 @@ LIST permut(LIST x){
     {
         int r = int(u*k)+1;
         swap(x[k], x[r]);
-        k -=1;
+        k -= 1;
     }
 
     return x;
